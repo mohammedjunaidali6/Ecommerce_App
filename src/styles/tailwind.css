@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --bg-primary: #000000;
+    --bg-secondary: #919798;
+    --bg-tertiary: #a2845e;
+    --bg-light-1: #f7f7f7;
+    --bg-light-2: #f8f8f8;
+    --bg-white: #ffffff;
+
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #322d2d;
+    --text-muted-1: #6e7576;
+    --text-muted-2: #919798;
+    --text-muted-3: #b7b7b7;
+    --text-white: #ffffff;
+
+    /* Button Colors */
+    --button-bg: #000000;
+    --button-text: #ffffff;
+  }
+}
+
+@layer utilities {
+  /* Background Colors */
+  .bg-primary {
+    background-color: var(--bg-primary);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
+  .bg-tertiary {
+    background-color: var(--bg-tertiary);
+  }
+  .bg-light-1 {
+    background-color: var(--bg-light-1);
+  }
+  .bg-light-2 {
+    background-color: var(--bg-light-2);
+  }
+  .bg-white {
+    background-color: var(--bg-white);
+  }
+
+  /* Text Colors */
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-muted-1 {
+    color: var(--text-muted-1);
+  }
+  .text-muted-2 {
+    color: var(--text-muted-2);
+  }
+  .text-muted-3 {
+    color: var(--text-muted-3);
+  }
+  .text-white {
+    color: var(--text-white);
+  }
+
+  /* Button Colors */
+  .bg-button {
+    background-color: var(--button-bg);
+  }
+  .text-button {
+    color: var(--button-text);
+  }
+}
